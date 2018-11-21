@@ -1,8 +1,5 @@
 var robot = require("robotjs");
 
-//var mouse = require('macmouse');
-
-//mouse.init();
 
 var clicktime = 0;
 var cooldown = 0;

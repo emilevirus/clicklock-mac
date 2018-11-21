@@ -1,0 +1,27 @@
+{
+  "name": "clicklock",
+  "version": "1.0.0",
+  "description": "This aims to recreate the clicklock feature from Windows on MacOS",
+  "main": "click.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilevirus/clicklock-mac.git"
+  },
+  "keywords": [
+    "clicklock",
+    "macos"
+  ],
+  "dependencies": {
+    "iohook": "0.2.1",
+    "robotjs": "^0.5.1"
+  },
+  "author": "Emile J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilevirus/clicklock-mac/issues"
+  },
+  "homepage": "https://github.com/emilevirus/clicklock-mac#readme"
+}

@@ -16,15 +16,16 @@ ioHook.on('mousedown', event => {
     }
   });
 
-  ioHook.on('mousemove', event => {
+  ioHook.on('mousemove', eventt => {
       if (!holding) return;
+      var event = robot.getMousePos();
       robot.dragMouse(event.x, event.y);
   });
 
 ioHook.on('mouseup', event => {
     if (clicktime == 0) return;
     console.log(Date.now() - clicktime);
-    if (!holding && Date.now() - clicktime > 700){
+    if (!holding && Date.now() - clicktime > 600){
         holding = true;
         clicktime = 0;
         cooldown = Date.now();
